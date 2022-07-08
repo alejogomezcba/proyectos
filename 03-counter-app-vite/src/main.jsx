@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HelloWorldApp } from './HelloWorldApp';
-import { CounterApp } from './CounterApp';      
+import { CounterApp } from './CounterApp';
 
 const value = 1;
 

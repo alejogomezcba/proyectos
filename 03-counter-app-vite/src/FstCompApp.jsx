@@ -4,7 +4,7 @@ const newValue = 'mensaje de prueba';
 
 
 export const FstCompApp = ({title, subtitle}) => {
-    return ( 
+    return (
         <>
         <h1>{title}</h1>
             <h2>Prueba del primer componente</h2>
@@ -12,7 +12,7 @@ export const FstCompApp = ({title, subtitle}) => {
             <code>{newValue}</code>
             <p>Prueba de parrafo</p>
         </>
-     
+
     )
 }
 
