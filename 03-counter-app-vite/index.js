@@ -1,0 +1,24 @@
+const persona = {
+    nombre: 'Tony',
+    edad: 45,
+    clave: 'Ironman'
+};
+
+export const usContext = ({ clave, nombre, edad, rango = 'Capitán' }) => {
+
+    return {
+        nombreClave: clave,
+        anios: edad,
+        nombre: nombre,
+        latlng: {
+            lat: 14.1232,
+            lng: -12.3232
+        }
+    }
+
+}
+
+const data = () => {
+
+    const { nombreClave, anios, latlng: { lat, lng } } = usContext( persona );
+};
